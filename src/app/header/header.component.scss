@@ -1,0 +1,219 @@
+// Desktop + All
+.site-header {
+  width: 100%;
+  padding: 30px 0;
+  color: black;
+  background: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: 15% 15% 1fr 15% 15%;
+  grid-template-rows: 40px;
+}
+
+a.navbar img {
+  height: 45px;
+  justify-self: center;
+  align-self: center;
+}
+
+#logo-nav {
+  overflow: visible;
+  visibility: visible;
+  cursor: pointer;
+}
+
+.navbar {
+  overflow: visible;
+  visibility: visible;
+  grid-row-start: 1;
+  justify-self: center;
+  align-self: center;
+  color: #8E8E8E;
+  transition: all .3s;
+  text-decoration: none;
+}
+
+.navbar.active {
+  color: #111;
+  font-weight: 600;
+}
+
+.navbarfont:hover {
+  color: black;
+  transition: all .3s;
+  padding-bottom: 15px;
+  border-bottom: 3px solid black;
+}
+
+.burger-container {
+  display: none;
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+// Mobile
+@media screen and (max-width: 650px) {
+
+  .site-header {
+    position: fixed;
+    &.open {
+      position: unset;
+    }
+  }
+  
+  .navbar {
+    overflow: hidden;
+    visibility: hidden;
+    text-align: center;
+  }
+
+    
+  body:before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+
+  // Container of all hamburger and menu
+  .burger-container {
+    display: block;
+    opacity: 1;
+    overflow: visible;
+    visibility: visible;
+    position: fixed;
+    left: 20px;
+    top: 25px;
+  }
+  
+  // HAMBURGER logic
+  .burger-button {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    background: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.5s ease;
+    border: 2px solid transparent;
+    left: 75vw;
+  }
+  
+  .burger-container.open .burger-button {
+    border: 2px solid #fff;
+    box-shadow: none;
+
+    .burger-button-icon {
+      background: transparent;
+    }
+  }
+
+  .burger-button-icon {
+    display: inline-block;
+    position: absolute;
+    background: black;
+    margin: 0 auto;
+    width: 20px;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+    transform: translateY(-1px);
+  }
+
+  // MENU
+  .burger-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0 0 0 20px;
+  }
+
+  
+  .burger-container.open .burger-menu {
+    display: block;
+  }
+  
+  .burger-menu li {
+    display: block;
+    position: relative;
+    margin: 15px 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    transform: translateX(-400px);
+  }
+  
+  .burger-menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, "san-serif";
+    font-weight: normal;
+    transition: all 0.4s ease;
+    border-left: 3px solid transparent;
+    padding-left: 0;
+    margin-top: 50px;
+  
+  }
+  
+  .burger-menu a:hover,
+  .burger-menu a.active {
+    padding-left: 30px;
+    border-left: 3px solid white;
+  }
+
+  // CROSS logic
+  .burger-button-icon:before,
+  .burger-button-icon:after {
+    content: "";
+    position: absolute;
+    margin: 0 auto;
+    background: black;
+    width: 20px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+  }
+
+  .burger-button-icon:after {
+    top: 10px;
+  }
+
+  .burger-button-icon:before {
+    bottom: 10px;
+  }
+  
+  // OPEN logic
+  .burger-container.open .burger-button+.burger-menu li {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  
+  .burger-container.open .burger-button .burger-button-icon:after {
+    transform: rotateZ(-0.78539816rad);
+  }
+  
+  .burger-container.open .burger-button .burger-button-icon:before {
+    transform: rotateZ(0.78539816rad);
+  }
+  
+  .burger-container.open .burger-button .burger-button-icon:before,
+  .burger-container.open .burger-button .burger-button-icon:after {
+    transform-origin: 0 50%;
+    width: 28.28427125px;
+    background-color: white;
+  }
+
+}
+

@@ -1,0 +1,18 @@
+body.open {
+  overflow: hidden;
+}
+
+body.open:before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.root-container {
+  min-height: 60vh;
+}
+
+@media screen and (max-width: 650px) {
+  .root-container {
+    margin-top: 100px;
+  }
+}

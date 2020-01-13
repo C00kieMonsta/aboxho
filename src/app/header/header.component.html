@@ -1,0 +1,23 @@
+<div class="site-header" id="site-header">
+  
+  <nav class="burger-container" id="burger-container">
+    <a class="burger-button" (click)="openMenu()">
+      <span class="burger-button-icon"></span>
+    </a>
+    <ul class="burger-menu">
+      <li><a (click)="closeMenu()" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/">Portfolio</a></li>
+      <li><a (click)="closeMenu()" routerLinkActive="active" routerLink="/leisure">Leisure</a></li>
+      <li><a (click)="closeMenu()" routerLinkActive="active" routerLink="/about">About</a></li>
+      <li><a (click)="closeMenu()" routerLinkActive="active" routerLink="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <a routerLink="/" class="navbar navbarfont" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Front/Back</a>
+  <a routerLink="/leisure" class="navbar navbarfont" routerLinkActive="active">Leisure</a>
+  <a routerLink="/" class="navbar">
+    <img src="assets/brand/icon-aboxho.svg" id="logo-nav" >
+  </a>
+  <a routerLink="/about" class="navbar navbarfont" routerLinkActive="active">About</a>
+  <a routerLink="/contact" class="navbar navbarfont" routerLinkActive="active">Contact</a>
+
+</div>

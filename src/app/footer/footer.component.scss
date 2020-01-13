@@ -1,0 +1,58 @@
+#site-footer {
+  color: rgb(0, 0, 0);
+  padding: 32px 0 0 0;
+  background: rgb(255, 255, 255);
+
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+
+}
+
+.social-media img {
+  width: 24px;
+  margin: 0 30px 0 30px;
+
+}
+
+.signature {
+  font-size: 10px;
+  margin-top: 30px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.contact-form {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+#pain {
+  width: 15px;
+  text-align: center;
+}
+
+
+#site-main {
+  margin-bottom: 60px;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
