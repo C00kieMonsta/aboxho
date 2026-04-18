@@ -1,6 +1,6 @@
 # antoine.md
 
-Machine-readable personal site for Antoine Boxho.
+Machine-readable personal site for Antoine Boxho, inspired by [jeroen.md](https://jeroen.md/).
 
 The homepage is a minimal intro. The meat of the site is the plain text / markdown context files designed to be fed to LLMs and AI agents:
 
