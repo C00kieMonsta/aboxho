@@ -10,7 +10,7 @@ The homepage is a minimal intro. The meat of the site is the plain text / markdo
 
 ## Stack
 
-Vite + TypeScript, no framework. Markdown and text context files are served as static assets from `public/`.
+Vite + TypeScript, no framework. Markdown and text context files are served as static assets from `public/`
 
 ## Develop
 
