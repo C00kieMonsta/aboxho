@@ -1,0 +1,185 @@
+# Antoine Boxho — Full Context
+
+> This is the complete machine-readable context about Antoine Boxho. Feed it to an agent whenever you need to introduce him, write about him, reach him, or work with him. Individual sections are also available at aboxho.com/<section>.md.
+
+---
+
+# About Me
+
+I'm Antoine Boxho. I'm a software engineer based in London, and the first hire at Scope AI (https://scope.ai/), where we're automating one of the most overlooked industries in the world with language models.
+
+## How I got here
+
+I trained as a financial engineer at Solvay Brussels School, with a year at the National University of Singapore where I picked up a minor in computer science. My master's thesis was on blockchain as financial infrastructure, which turned into a published primer in 2017.
+
+I started writing software professionally at FinMetrics in Geneva, building calculation engines for portfolio valuation, value-at-risk, and stress testing for large European treasuries and private banks. Around the same time I co-founded Takeo.io, a productivity startup building a secure enterprise communication platform.
+
+After that I joined McKinsey & Company in Brussels in the Core Tech & Analytics practice. For close to four years I shipped ML-backed demand forecasting, clustering analytics, automation, and data pipelines for MedTech, Telco, and large enterprise clients. I also did a summer at McKinsey as a data analyst a few years earlier, before I'd fully committed to engineering.
+
+In August 2024 I moved to London as the first hire at Scope AI. We fine-tune LLMs and document layout models on industry-specific data, build the distributed systems and pipelines that capture field data in real time, and ship a product aimed at taking manual toil out of an industry that nobody wants to touch.
+
+## How I think about the work
+
+I care about shipping. I prefer simple, obvious code over clever abstractions, small focused functions, and systems that a junior engineer can pick up and maintain. I reach for prototypes before specs. I tend to work across the stack — infra, pipelines, ML, frontend — and will happily go deep on whichever piece is on fire.
+
+## Outside work
+
+French and Dutch native, fully fluent in English. I play with code for fun, travel when I can, and keep a soft spot for financial markets from my earlier life.
+
+---
+
+# Experience
+
+## Scope AI — Member of Technical Staff (August 2024 – Present, London, UK, Full-time, On-site)
+
+First hire. Automating one of the most overlooked industries in the world with language models.
+
+- Built production-grade infrastructure using distributed systems patterns.
+- Implemented scalable data pipelines and reporting systems enabling real-time field data capture.
+- Fine-tuned LLMs and document layout models on industry-specific data to automate document extraction end-to-end.
+- Work across infra, ML, and product as scope demands.
+
+## McKinsey & Company — Core Tech & Analytics (October 2020 – August 2024, Brussels, Belgium, Full-time)
+
+Digital consultant in the Core Tech & Analytics practice (QuantumBlack).
+
+- Built ML-based demand forecasting and clustering analytics proofs of concept for a leading MedTech firm, aligned with their growth and innovation strategy.
+- Developed automation solutions to reduce support workload and improve operational efficiency for a Telco client.
+- Designed tracking and data pipelines to monitor vendor performance under complex ADM contracts.
+- Collaborated across cross-functional teams of data scientists, engineers, and domain experts.
+
+## FinMetrics — Software Engineer (February 2018 – August 2020, Geneva, Switzerland, Full-time)
+
+Quant software engineer building hedging and risk tooling for large EU corporate treasuries, private banks, and institutional clients.
+
+- Engineered quantitative hedging strategies and risk management solutions.
+- Built the platform's calculation engines for portfolio valuation, value-at-risk metrics, and stress-test scenarios.
+- Shipped across computational finance and financial structuring.
+
+## Takeo.io — Co-Founder (October 2016 – June 2018, Brussels, Belgium)
+
+Productivity software startup.
+
+- Designed and built an enterprise-grade communication platform focused on secure internal collaboration.
+- Engineered intelligent messaging and task management features to streamline cross-team workflows.
+
+## McKinsey & Company — Data Analyst Intern (August 2014 – September 2014, Brussels, Belgium)
+
+Summer analytics internship before fully committing to an engineering path.
+
+## Solvay Brussels School — Student Representative (January 2012 – December 2013, Brussels, Belgium)
+
+Student Life League representative at SBS-EM – ULB.
+
+---
+
+# Education
+
+## Degrees
+
+- Solvay Brussels School — MEng, Financial Engineering, 2015 – 2017, Cum Laude. Thesis: "Blockchain as Financial Infrastructure: A Primer and Application Overview" (90%).
+- National University of Singapore — MEng, Financial Engineering, 2015 – 2016 (exchange). Minor in computer science.
+- Solvay Brussels School — BEng, Financial Engineering, 2012 – 2015, Cum Laude.
+
+## Certifications and online courses
+
+- Stanford Online High School — Machine Learning (Feb 2020, 97.5%).
+- Harvard / HarvardX — CS50's Introduction to Artificial Intelligence with Python (Apr 2021).
+- Harvard / HarvardX — CS50: Introduction to Computer Science (2015 – 2016, 85%).
+- Johns Hopkins University — Python for Genomic Data Science (May 2024).
+- Johns Hopkins University — Introduction to Genomic Technologies (May 2024).
+- Udemy — The Complete iOS 9 Developer Course (May 2016).
+
+## Publications
+
+- "Introduction to Blockchain Technology and a Primer for its Use in Various Applications", Solvay Brussels School, April 2017.
+
+---
+
+# Working with Me
+
+## Communication
+
+- Language: English, French, or Dutch. Any is fine.
+- Style: short, direct, informal. Lead with the ask, context after. Flag when a message is information-only so I don't hunt for an action item.
+- Format: email for anything substantial, messages for quick checks.
+
+## How I communicate back
+
+Warm, direct, concise. I'll code-switch between English, French, and Dutch if the context allows. Emails are usually 2–5 sentences. I open with "Hi [Name]," and sign off with just "Antoine".
+
+## Response times
+
+Based in London, usually on UK time. I respond in batches rather than real-time. Don't read into delays.
+
+## When I disagree
+
+I'll acknowledge your reasoning first, then explain where I see it differently. I welcome being pushed back on.
+
+## How I delegate
+
+I ask, I don't tell — "What if we…", "Could you…", "I'd suggest…", always with the why. The reasoning is there so you can challenge it. I often prototype something first and hand it off; that's how I think.
+
+## What I expect
+
+High autonomy. Make calls, surface blockers early, don't wait for specs that aren't coming. Outcomes over inputs. Progress over perfection.
+
+## Feedback
+
+Always about the work, never personal. Lead with what's working, then what could change, with the why.
+
+## Show me, don't tell me
+
+Working prototypes over slide decks.
+
+## Meetings
+
+Come with what needs deciding. Leave with clear next steps.
+
+---
+
+# Writing About Me
+
+## Name
+
+Antoine Boxho (pronounced "an-TWAN box-OH"). Use "Antoine" on second mention.
+
+## One-liner
+
+Software engineer and first hire at Scope AI, automating one of the most overlooked industries in the world with language models.
+
+## Short bio (≤ 50 words)
+
+Antoine Boxho is a software engineer based in London and the first hire at Scope AI, where he works across distributed systems, data pipelines, and fine-tuned LLMs. Previously he was in McKinsey's Core Tech & Analytics practice and a quant software engineer at FinMetrics.
+
+## Medium bio (≤ 120 words)
+
+Antoine Boxho is the first hire and a Member of Technical Staff at Scope AI in London, where he builds production infrastructure, real-time data pipelines, and fine-tunes LLMs and layout models to automate document extraction in an industry that has historically resisted software.
+
+Before Scope AI, Antoine spent four years as a digital consultant in McKinsey's Core Tech & Analytics practice, shipping ML-backed forecasting, clustering analytics, and automation for MedTech and Telco clients. He started his engineering career at FinMetrics in Geneva, building calculation engines for portfolio valuation, VaR, and stress testing for large European treasuries. He also co-founded Takeo.io, a productivity startup.
+
+Antoine holds an MEng in Financial Engineering from Solvay Brussels School (Cum Laude), with a year at the National University of Singapore.
+
+## Style notes
+
+- Use "software engineer", not "developer" or "coder".
+- "Scope AI" is the company name — avoid "Scope" on its own if context could be ambiguous.
+- McKinsey affiliation is "ex-McKinsey" or "former McKinsey (Core Tech & Analytics)". Mention QuantumBlack only when the audience will recognise it.
+- No superlatives I haven't earned. No "world-leading", "renowned", or "visionary".
+
+## What to avoid
+
+- Don't describe me as a founder of Scope AI. I'm the first hire, not a co-founder.
+- Don't describe me purely as a "data scientist" or "ML engineer". I'm a generalist engineer who does ML when the problem calls for it.
+- Don't overstate Takeo.io. It was a small productivity startup.
+
+---
+
+# Contact
+
+- Email: antoineboxho@gmail.com
+- LinkedIn: https://linkedin.com/in/antoine-boxho/
+- GitHub: https://github.com/C00kieMonsta
+- Location: London, UK
+
+Email is the best way to reach me for anything substantial. I respond in batches.

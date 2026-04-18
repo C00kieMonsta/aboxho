@@ -1,0 +1,105 @@
+:root {
+  --bg: #fafaf7;
+  --fg: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #1a1a1a;
+  --rule: #e5e5e0;
+  --maxw: 640px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f0f0f;
+    --fg: #ededed;
+    --muted: #9a9a9a;
+    --accent: #ededed;
+    --rule: #2a2a2a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family:
+    ui-serif, "Iowan Old Style", "Apple Garamond", Baskerville, "Times New Roman",
+    "Droid Serif", Times, "Source Serif Pro", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 6rem 1.5rem 4rem;
+}
+
+header {
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Cascadia Mono",
+    Consolas, monospace;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin: 0.25rem 0 0;
+  font-size: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.links {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Cascadia Mono",
+    Consolas, monospace;
+  font-size: 0.9rem;
+  color: var(--muted);
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.links a {
+  color: var(--fg);
+}
+
+.cta {
+  margin-top: 2rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Cascadia Mono",
+    Consolas, monospace;
+  font-size: 0.9rem;
+}

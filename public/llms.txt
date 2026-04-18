@@ -1,0 +1,18 @@
+# Antoine Boxho
+
+> Antoine Boxho is a software engineer and the first hire (Member of Technical Staff) at Scope AI in London, automating one of the most overlooked industries in the world with language models.
+> Ex-McKinsey (Core Tech & Analytics). Previously quant software engineer at FinMetrics. Co-founder of Takeo.io. Solvay Brussels School MEng (Cum Laude), with a year at the National University of Singapore.
+> Based in London, UK. Contact: antoineboxho@gmail.com
+
+## Context Pages
+
+- [About Me](https://aboxho.com/about.md): **Use this when:** you need to introduce me, write a bio, or understand my background.
+- [Experience](https://aboxho.com/experience.md): **Use this when:** you need a detailed professional history or to describe what I've worked on.
+- [Education](https://aboxho.com/education.md): **Use this when:** you need my academic background, degrees, or certifications.
+- [Working with Me](https://aboxho.com/working-with-me.md): **Use this when:** preparing to collaborate with me, drafting a message to me, or helping someone onboard onto my team.
+- [Writing About Me](https://aboxho.com/writing-about.md): **Use this when:** writing a speaker bio, press mention, or intro about me.
+- [Contact](https://aboxho.com/contact.md): **Use this when:** you need to reach me or find me online.
+
+## Full Context
+
+- [Complete context](https://aboxho.com/llms-full.txt): All sections combined in one file.

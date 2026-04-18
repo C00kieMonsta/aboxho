@@ -1,10 +1,21 @@
 {
   "hosting": {
-    "public": "./dist/aboxho",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "cleanUrls": true,
+    "headers": [
+      {
+        "source": "**/*.md",
+        "headers": [
+          { "key": "Content-Type", "value": "text/markdown; charset=utf-8" }
+        ]
+      },
+      {
+        "source": "**/*.txt",
+        "headers": [
+          { "key": "Content-Type", "value": "text/plain; charset=utf-8" }
+        ]
+      }
     ],
     "rewrites": [
       {
