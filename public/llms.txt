@@ -6,13 +6,13 @@
 
 ## Context Pages
 
-- [About Me](https://aboxho.com/about.md): **Use this when:** you need to introduce me, write a bio, or understand my background.
-- [Experience](https://aboxho.com/experience.md): **Use this when:** you need a detailed professional history or to describe what I've worked on.
-- [Education](https://aboxho.com/education.md): **Use this when:** you need my academic background, degrees, or certifications.
-- [Working with Me](https://aboxho.com/working-with-me.md): **Use this when:** preparing to collaborate with me, drafting a message to me, or helping someone onboard onto my team.
-- [Writing About Me](https://aboxho.com/writing-about.md): **Use this when:** writing a speaker bio, press mention, or intro about me.
-- [Contact](https://aboxho.com/contact.md): **Use this when:** you need to reach me or find me online.
+- [About Me](https://antoine.md/about.md): **Use this when:** you need to introduce me, write a bio, or understand my background.
+- [Experience](https://antoine.md/experience.md): **Use this when:** you need a detailed professional history or to describe what I've worked on.
+- [Education](https://antoine.md/education.md): **Use this when:** you need my academic background, degrees, or certifications.
+- [Working with Me](https://antoine.md/working-with-me.md): **Use this when:** preparing to collaborate with me, drafting a message to me, or helping someone onboard onto my team.
+- [Writing About Me](https://antoine.md/writing-about.md): **Use this when:** writing a speaker bio, press mention, or intro about me.
+- [Contact](https://antoine.md/contact.md): **Use this when:** you need to reach me or find me online.
 
 ## Full Context
 
-- [Complete context](https://aboxho.com/llms-full.txt): All sections combined in one file.
+- [Complete context](https://antoine.md/llms-full.txt): All sections combined in one file.

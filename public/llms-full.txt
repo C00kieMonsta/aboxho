@@ -1,6 +1,6 @@
 # Antoine Boxho — Full Context
 
-> This is the complete machine-readable context about Antoine Boxho. Feed it to an agent whenever you need to introduce him, write about him, reach him, or work with him. Individual sections are also available at aboxho.com/<section>.md.
+> This is the complete machine-readable context about Antoine Boxho. Feed it to an agent whenever you need to introduce him, write about him, reach him, or work with him. Individual sections are also available at antoine.md/<section>.md.
 
 ---
 
@@ -180,6 +180,8 @@ Antoine holds an MEng in Financial Engineering from Solvay Brussels School (Cum 
 - Email: antoineboxho@gmail.com
 - LinkedIn: https://linkedin.com/in/antoine-boxho/
 - GitHub: https://github.com/C00kieMonsta
+- Medium: https://medium.com/@antoineboxho
+- Quora: https://www.quora.com/profile/Antoine-Boxho
 - Location: London, UK
 
 Email is the best way to reach me for anything substantial. I respond in batches.

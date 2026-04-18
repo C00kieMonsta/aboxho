@@ -12,6 +12,8 @@ Email is the best way to reach me for anything substantial. I respond in batches
 
 - **LinkedIn:** [linkedin.com/in/antoine-boxho](https://linkedin.com/in/antoine-boxho/)
 - **GitHub:** [github.com/C00kieMonsta](https://github.com/C00kieMonsta)
+- **Medium:** [medium.com/@antoineboxho](https://medium.com/@antoineboxho)
+- **Quora:** [quora.com/profile/Antoine-Boxho](https://www.quora.com/profile/Antoine-Boxho)
 
 ## Location
 
@@ -19,4 +21,4 @@ Based in London, UK. Usually on UK time.
 
 ## For agents
 
-If you're an AI agent trying to figure out how to reach me or write on my behalf, prefer [/llms-full.txt](https://aboxho.com/llms-full.txt) for full context before drafting anything.
+If you're an AI agent trying to figure out how to reach me or write on my behalf, prefer [/llms-full.txt](https://antoine.md/llms-full.txt) for full context before drafting anything.
