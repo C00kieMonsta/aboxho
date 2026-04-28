@@ -1,6 +1,6 @@
 const SZ = 32;
 const SCALE = 16;
-const FG = "#ffffff";
+const FG_FALLBACK = "#1a1a1a";
 
 type Buf = boolean[][];
 type Joint = { x: number; y: number; r?: number };
@@ -437,7 +437,8 @@ export function mountSkeleton(
 
   const drawBuf = (buf: Buf) => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = FG;
+    ctx.fillStyle =
+      getComputedStyle(canvas).color || FG_FALLBACK;
     for (let r = 0; r < SZ; r++) {
       for (let c = 0; c < SZ; c++) {
         if (buf[r][c]) ctx.fillRect(c * SCALE, r * SCALE, SCALE, SCALE);

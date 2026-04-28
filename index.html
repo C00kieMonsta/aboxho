@@ -22,8 +22,26 @@
       href="/llms-full.txt"
     />
     <link rel="stylesheet" href="/src/style.css" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          if (t === "light" || t === "dark") {
+            document.documentElement.setAttribute("data-theme", t);
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Cycle theme: auto, light, dark"
+    >
+      auto
+    </button>
     <main>
       <header>
         <h1>antoine.md</h1>

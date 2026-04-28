@@ -1,4 +1,5 @@
-:root {
+:root,
+:root[data-theme="light"] {
   --bg: #fdf8e4;
   --bg-glow-1: #fff4c2;
   --bg-glow-2: #fdf1b8;
@@ -8,11 +9,12 @@
   --accent: #1a1a1a;
   --rule: #e8e0bf;
   --noise-opacity: 0.35;
+  --noise-blend: multiply;
   --maxw: 640px;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #0f0f0f;
     --bg-glow-1: #2a2415;
     --bg-glow-2: #1a1710;
@@ -22,7 +24,21 @@
     --accent: #ededed;
     --rule: #2a2a2a;
     --noise-opacity: 0.25;
+    --noise-blend: overlay;
   }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f0f0f;
+  --bg-glow-1: #2a2415;
+  --bg-glow-2: #1a1710;
+  --bg-glow-3: #0f0f0f;
+  --fg: #ededed;
+  --muted: #9a9a9a;
+  --accent: #ededed;
+  --rule: #2a2a2a;
+  --noise-opacity: 0.25;
+  --noise-blend: overlay;
 }
 
 * {
@@ -65,13 +81,7 @@ body::before {
   z-index: 0;
   opacity: var(--noise-opacity);
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
-  mix-blend-mode: multiply;
-}
-
-@media (prefers-color-scheme: dark) {
-  body::before {
-    mix-blend-mode: overlay;
-  }
+  mix-blend-mode: var(--noise-blend);
 }
 
 main {
@@ -158,6 +168,7 @@ a:hover {
   height: auto;
   aspect-ratio: 1 / 1;
   background: transparent;
+  color: var(--fg);
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
@@ -171,4 +182,32 @@ a:hover {
   color: var(--muted);
   min-height: 1em;
   transition: opacity 0.3s;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+  appearance: none;
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.4rem 0.8rem;
+  color: var(--muted);
+  font: inherit;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Cascadia Mono",
+    Consolas, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background-color 0.15s;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  color: var(--fg);
+  border-color: var(--fg);
+  outline: none;
 }
